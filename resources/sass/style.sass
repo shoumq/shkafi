@@ -21,6 +21,29 @@ body
     font-weight: 500
     margin-bottom: 30rem
 
+.main_first--mob
+    display: none !important
+
+    @media (max-width: 768px)
+        display: flex !important
+        gap: 20rem !important
+        position: relative
+        left: 31rem
+
+        .main_img
+            width: 150rem !important
+            height: 350rem !important
+
+        .main_wrapper
+            width: 130rem !important
+            height: 330rem !important
+
+        .main_div
+            height: 300rem !important
+
+        .main_knob--second
+            left: 83rem !important
+
 .main
     display: flex
     justify-content: space-between
@@ -35,6 +58,9 @@ body
         width: 50%
         display: flex
         gap: 50rem
+
+        @media (max-width: 768px)
+            display: none
 
         img
             width: 100%

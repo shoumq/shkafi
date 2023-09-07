@@ -27,6 +27,32 @@
                     <div class="desc">ВИД ИЗНУТРИ</div>
                 </div>
             </div>
+
+
+            <div class="main_first main_first--mob">
+                <div class="main_div main_div--first">
+                    <img class="main_wrapper"
+                         :src="'../storage/envelope/'+b_select.code+'.jpg'"
+                         alt="">
+                    <img class="main_img" :src="'../storage/envelope/'+a_select.code+'.jpg'"
+                         alt="">
+                    <img class="main_knob--first" :src="'../storage/knob/'+c_select.code+'.png'"
+                         alt="">
+                    <div class="desc">ВИД СНАРУЖИ</div>
+                </div>
+
+                <div class="main_div main_div--second">
+                    <img class="main_wrapper"
+                         :src="'../storage/envelope/'+b_select.code+'.jpg'"
+                         alt="">
+                    <img class="main_img" :src="'../storage/envelope/'+a_select.code+'.jpg'"
+                         alt="">
+                    <img class="main_knob--second" :src="'../storage/knob/'+c_select.code+'.png'"
+                         alt="">
+                    <div class="desc">ВИД ИЗНУТРИ</div>
+                </div>
+            </div>
+
             <div class="main_second">
                 <div class="title">Параметры</div>
 
