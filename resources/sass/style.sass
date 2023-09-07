@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap')
+
+body
+    background: #f6f6f6
+
+*
+    font-family: 'Montserrat', sans-serif
+
+.container
+    margin-top: 80rem
+    width: 100%
+    max-width: 1000rem
+    margin-inline: auto
+    background: white
+    padding: 20rem 40rem
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0
+    border-radius: 10rem
+
+.title
+    font-size: 30rem
+    font-weight: 500
+    margin-bottom: 30rem
+
+.main
+    display: flex
+    justify-content: space-between
+    gap: 100rem
+    padding-bottom: 40rem
+
+    @media (max-width: 768px)
+        flex-direction: column
+
+    &_first
+        position: relative
+        width: 50%
+        display: flex
+        gap: 50rem
+
+        img
+            width: 100%
+
+        .desc
+            font-size: 15rem
+            text-align: center
+            font-weight: 500
+            margin-top: 10rem
+
+        .main_div
+            position: relative
+            transition: .4s
+            width: 200rem
+            height: 400rem
+
+            &--second
+                margin-left: 60rem
+
+        .main_img
+            position: absolute
+            width: 200rem
+            height: 420rem
+
+
+        .main_knob--first
+            position: absolute
+            width: 90rem
+            top: 160rem
+            left: -20rem
+            z-index: 3
+
+        .main_knob--second
+            position: absolute
+            width: 90rem
+            top: 160rem
+            left: 130rem
+            z-index: 3
+            transform: scale(-1, 1)
+
+        .main_wrapper
+            position: absolute
+            top: 10rem
+            left: 10rem
+            right: 10rem
+            width: 180rem
+            height: 400rem
+            z-index: 2
+
+    &_second
+        width: 50%
+
+        .title
+            font-size: 25rem
+            font-weight: 500
+
+        .finish
+            font-size: 23rem
+            font-weight: 500
+            margin-top: 20rem
+
+        .btn
+            font-family: 'Montserrat', sans-serif
+            background: #680000
+            color: white
+            outline: none
+            border: none
+            padding: 7rem 15rem
+            font-size: 16rem
+            cursor: pointer
+            margin-top: 16rem
+            transition: .2s
+
+            &:hover
+                background: #9a1515
+
+.select_div
+    display: flex
+    flex-direction: column
+    gap: 10rem
+
+    &--item
+        width: 100%
+        display: flex
+        justify-content: space-between
+
+        @media (max-width: 768px)
+            width: 330rem
+
+        &_title
+            font-size: 17rem
+
+        select
+            user-select: none
+            cursor: pointer
+            border: 1rem solid #d0d0d0
+            outline: none
+            font-size: 17rem
+            -webkit-appearance: none
+            transition: .1s
+            padding: 4rem 10rem
+            width: 180rem
+
+            &:hover
+                background: #efefef
+
+        option
+            cursor: pointer
+            -webkit-box-shadow: 0px 1px 0 #DEDEDE, 0px -1px 0 #DEDEDE
+            -moz-box-shadow: 0px 1px 0 #DEDEDE, 0px -1px 0 #DEDEDE
+
+            &:hover
+                background: #efefef !important
