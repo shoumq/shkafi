@@ -7,22 +7,22 @@
             <div class="main_first">
                 <div class="main_div main_div--first" ref="firstImg">
                     <img class="main_wrapper"
-                         :src="'http://127.0.0.1:5173/resources/assets/envelope/'+b_select.code+'.jpg'"
+                         :src="'../storage/envelope/'+b_select.code+'.jpg'"
                          alt="">
-                    <img class="main_img" :src="'http://127.0.0.1:5173/resources/assets/envelope/'+a_select.code+'.jpg'"
+                    <img class="main_img" :src="'../storage/envelope/'+a_select.code+'.jpg'"
                          alt="">
-                    <img class="main_knob--first" :src="'http://127.0.0.1:5173/resources/assets/knob/'+c_select.code+'.png'"
+                    <img class="main_knob--first" :src="'../storage/knob/'+c_select.code+'.png'"
                          alt="">
                     <div class="desc">ВИД СНАРУЖИ</div>
                 </div>
 
                 <div class="main_div main_div--second" ref="secondImg">
                     <img class="main_wrapper"
-                         :src="'http://127.0.0.1:5173/resources/assets/envelope/'+b_select.code+'.jpg'"
+                         :src="'../storage/envelope/'+b_select.code+'.jpg'"
                          alt="">
-                    <img class="main_img" :src="'http://127.0.0.1:5173/resources/assets/envelope/'+a_select.code+'.jpg'"
+                    <img class="main_img" :src="'../storage/envelope/'+a_select.code+'.jpg'"
                          alt="">
-                    <img class="main_knob--second" :src="'http://127.0.0.1:5173/resources/assets/knob/'+c_select.code+'.png'"
+                    <img class="main_knob--second" :src="'../storage/knob/'+c_select.code+'.png'"
                          alt="">
                     <div class="desc">ВИД ИЗНУТРИ</div>
                 </div>
