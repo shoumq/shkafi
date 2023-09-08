@@ -2,6 +2,7 @@
 
 body
     background: #f6f6f6
+    overflow-x: hidden
 
 *
     font-family: 'Montserrat', sans-serif
@@ -15,6 +16,11 @@ body
     padding: 20rem 40rem
     box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0
     border-radius: 10rem
+    overflow-x: hidden
+
+    @media (max-width: 768px)
+        padding: 10rem 15rem
+        width: auto
 
 .title
     font-size: 30rem
@@ -28,7 +34,7 @@ body
         display: flex !important
         gap: 20rem !important
         position: relative
-        left: 31rem
+        left: -16rem
 
         .main_img
             width: 150rem !important
@@ -113,6 +119,9 @@ body
     &_second
         width: 50%
 
+        @media (max-width: 768px)
+            width: 100%
+
         .title
             font-size: 25rem
             font-weight: 500
@@ -121,6 +130,9 @@ body
             font-size: 23rem
             font-weight: 500
             margin-top: 20rem
+
+            @media (max-width: 768px)
+                width: 100%
 
         .btn
             font-family: 'Montserrat', sans-serif
@@ -148,7 +160,9 @@ body
         justify-content: space-between
 
         @media (max-width: 768px)
-            width: 330rem
+            width: 100%
+            display: flex
+            justify-content: space-between
 
         &_title
             font-size: 17rem
@@ -163,6 +177,9 @@ body
             transition: .1s
             padding: 4rem 10rem
             width: 180rem
+
+            @media (max-width: 768px)
+                width: 100rem
 
             &:hover
                 background: #efefef
